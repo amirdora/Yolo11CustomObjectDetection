@@ -65,30 +65,6 @@ dataset.location
 !yolo task=detect mode=train data={dataset.location}/data.yaml model="yolo11n.pt" epochs=40 imgsz=640
 ```
 
-**Step \# 05 Examine Training Results**
-:::
-
-``` python
-Image("/content/runs/detect/train4/P_curve.png", width=600)
-```
-
-::: {.output .execute_result execution_count="32"}
-![](readme/d2bb37a3898b9775b05d70c97d570e1c96fca579.png)
-
-
-
-``` python
-Image("/content/runs/detect/train4/R_curve.png", width=600)
-```
-
-::: {.output .execute_result execution_count="33"}
-![](readme/576c5e7eb0ce47d351188e836b0aea7293a1b4df.png)
-
-::: {.cell .code colab="{\"base_uri\":\"https://localhost:8080/\",\"height\":467}" id="vHVXACym1VZk" outputId="841a8187-0b0f-432b-85f9-ce236f49403c"}
-``` python
-Image("/content/runs/detect/train4/confusion_matrix.png", width=600)
-```
-
 ::: {.output .execute_result execution_count="34"}
 ![](readme/e81efb99d86fd34f7621c1ae9d8587cd4334ea9f.png){width="600"}
 :::
